@@ -7,7 +7,12 @@
 
 package Lection_1.Homeworks_JAVA.DZ_1;
 
+import java.io.IOException;
+import java.lang.System.Logger;
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.SimpleFormatter;
 
 public class task_3_dz {
      // метод получения числа
@@ -62,4 +67,29 @@ public class task_3_dz {
 
     }
 
+    // /**
+    //  * @param arr
+    //  * @return
+    //  * @throws IOException
+    //  */
+    // public static int[] calclogger(int arr[]) throws IOException {
+    //     Logger loger = Logger.getLogger(task_3_dz.class.getName());
+    //     FileHandler fHandler = new FileHandler("CalcLog.txt");
+    //     SimpleFormatter sFormatter = new SimpleFormatter();
+    //     fHandler.setFormatter(sFormatter);
+    //     loger.addHandler(fHandler);
+
+    //     int temp;
+    //     for (int i = arr.length - 1; i >= 0; i--) {
+    //         for (int j = 0; j < arr.length - 1; j++) {
+    //             if (arr[j] < arr[j + 1]) {
+    //                 temp = arr[j];
+    //                 arr[j] = arr[j + 1];
+    //                 arr[j + 1] = temp;
+    //             }
+    //         }
+
+    //         ((Object) loger).info(Arrays.toString(arr));
+    //     }
+    //     return arr;
 }

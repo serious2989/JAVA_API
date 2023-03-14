@@ -3,28 +3,31 @@
 
 package Seminar_3;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class task_3 {
-    static void ex3() {
-        ArrayList list = new ArrayList<>();
-        list.add("asdad5");
-        list.add("asdad4");
-        list.add("asdad3");
-        list.add(22);
-        list.add(22);
-        list.add(22);
-        list.add("asdad2");
-        list.add("asdad1");
-        list.add(22);
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        ArrayList list1 = new ArrayList<>();
+        list1.add("asdad5");
+        list1.add("asdad4");
+        list1.add("asdad3");
+        list1.add(22);
+        list1.add(22);
+        list1.add(22);
+        list1.add("asdad2");
+        list1.add("asdad1");
+        list1.add(22);
 
-        System.out.println(list);
-        for (int i = list.size() - 1; i >= 0; i--) {
-            if (list.get(i) instanceof Integer) {
-                list.remove(i);
+        System.out.println(list1);
+        for (int i = list1.size() - 1; i >= 0; i--) {
+            if (list1.get(i) instanceof Integer) {
+                list1.remove(i);
 
             }
         }
-        System.out.println(list);
+        System.out.println(list1);
     }
 }
