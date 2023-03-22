@@ -34,10 +34,7 @@ import java.util.logging.SimpleFormatter;
 
 // второй вариант
 public class task_1 {
-/**
- * @param args
- * @throws IOException
- */
+
 public static void main(String[] args) throws IOException{
     Logger ll = Logger.getLogger(lg.class.getName());
     String logsPath = "log.txt";
